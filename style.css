@@ -1,0 +1,339 @@
+#menu{
+  width: 100%;
+  height: 110px;
+  background-color: #605c64;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#isi-menu{
+  width: 600px;
+  float: left;
+  background-color: #605c64;
+  padding-top: 30px;
+}
+
+#logo{
+  float: left;
+  height: 110px;
+  width: auto;
+  
+}
+
+
+#isi-menu li{
+  list-style: none;
+  float: left;
+  margin-right: 50px;
+}
+
+#isi-menu a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Cennerik';
+}
+#kontak-hp{
+  color: #ffffff;
+  font-size: 20px;
+  //padding-top: 60px;
+  float: right;
+  margin-top: 60px;
+  margin-right: 30px;
+  text-decoration: none;
+  font-family: 'Cennerik';
+}
+
+#slide img{
+  width: 100%;
+  height: auto;
+  display: block;
+  
+}
+#dipercaya{
+  width: 100%;
+  height: 110px;
+  background-color: #605c64;
+  text-align: center;
+}
+#dipercaya img {
+  width: 100%;
+  height: 130px;
+  padding-bottom: 30px;
+}
+
+#dipercaya p{
+  margin: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Cennerik';
+ }
+ #dipercaya img{
+  vertical-align: middle;
+ }
+ #pembeda{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #575c63;
+  color: #dde2e3;
+  font-family: 'Cennerik';
+  font-size: 18px; 
+}
+
+#pembeda img{
+  float: right;
+  width: 320px;
+  height: 242px;
+  border-radius: 10px;
+}
+
+#judul-pembeda{
+  color: #000000;
+  font-size: 64px;
+  font-family: 'Cennerik';
+  font-weight: 400;
+  margin-top: -20px;
+ }
+ 
+#subjudul-pembeda{
+  font-family: 'Cennerik';
+
+}
+
+#bungkus-pembeda{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bungkus-pembeda p{
+  width: 400px;
+  line-height: 22px;
+} 
+  
+#testimoni{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #9d9c9a;
+}
+
+#testimoni img{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+#bungkus-testimoni{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+#judul-testimoni{
+  font-family: 'Cennerik';
+  font-size: 30px;
+  color: #000000;
+ }
+
+#isi-testimoni{
+  float: right;
+  width: 400px;
+  font-family: 'Cennerik';
+  color: #000000;
+}
+
+
+#contact {
+	background-color: #9d9c9a;
+}
+
+#bungkus-contact {
+	width: 960px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.judul {
+	font-family: 'Cennerik';
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: normal; 
+}
+
+#form {
+	width: auto;
+	height: auto;
+  float: left;
+
+}
+
+#address {
+
+	margin-left: 40px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#home {
+  width: 30px;
+  height: 30px;
+}
+
+#phone {
+  width: 30px;
+  height: 30px;
+}
+
+#clock {
+  width: 30px;
+  height: 30px;
+}
+
+#address p {
+	color: #ffffff;
+	font-family:'Cennerik';
+	margin-top: 5px;
+	margin-bottom: 35px;
+}
+
+/*Form*/
+label {
+	margin-bottom: 10px;
+	cursor: pointer;
+	font-family: 'Cennerik';
+	color: #ffffff;
+	font-size: 18px;
+	display: block;
+}
+
+input,
+textarea {
+	padding: 20px 15px;
+	border: none;
+	border: 1px solid #ffffff;
+	color: #72747a;
+	margin-bottom: 20px;
+	font-size: 18px;
+	background-color: transparent;
+}
+
+#form_nama {
+	width: 500px;
+}
+
+#form_email {
+	width: 500px;
+}
+
+#form_pesan {
+	width: 500px;
+	height: 100px;
+}
+
+#form_kirim {
+	cursor: pointer;
+}
+
+.tombol {
+	background-color: #72747a;
+	color: #fff;
+	font-family: 'Cennerik';
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 18px;
+	transition: all .5s ease;
+	border: none;
+}
+
+.tombol:hover {
+	background-color: #2e3436;
+	transition: all .3s ease;
+}
+
+#footer{
+  font-family: 'Cennerik';
+  font-size: 15px;
+  color: #ffffff; 
+  background-color: #72747a;
+}
+
+#footer p{
+  font-family: 'Cennerik';
+  font-size: 15px;
+  color: #ffffff; 
+}
+
+#riwayat{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #ffffff;
+}
+
+#riwayat img{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+#bungkus-riwayat{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+#judul-riwayat{
+  font-family: 'Cennerik';
+  font-size: 30px;
+  color: #000000;
+ }
+
+#isi-riwayat{
+  float: right;
+  width: 400px;
+  font-family: 'Cennerik';
+  font-size: 18px;
+  color: #000000;
+}
+
+#Art{
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background-image: url('img/slider.jpg');
+  color: #dde2e3;
+  font-family: 'Cennerik';
+  font-size: 18px;
+  background-attachment: fixed; 
+}
+
+#judul-Art{
+  color: #000000;
+  font-size: 64px;
+  font-family: 'Cennerik';
+  font-weight: 400;
+  margin-top: -20px;
+ }
+ 
+#subjudul-Art{
+  font-family: 'Cennerik';
+
+}
+
+#bungkus-Art{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bungkus-Art p{
+  width: 400px;
+  line-height: 22px;
+} 
